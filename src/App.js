@@ -1,12 +1,18 @@
 import "./styles.css";
-import Nav from "./components/Nav";
-import Header from "./components/Header";
+import Nav from "./Components/Nav";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Main from "./Components/Main";
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
+    <div className="App container-fluid">
       <Nav />
       <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
+
+export default App;
