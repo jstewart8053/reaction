@@ -1,2 +1,2 @@
 # reaction
-Created with CodeSandbox
+A React/Bootstrap Art Website. Basic Navigation and gallery included!
