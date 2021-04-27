@@ -8,12 +8,24 @@ function Header() {
         <img
           class="card-img-top "
           src="https://www.pictureframesexpress.co.uk/blog/wp-content/uploads/2020/05/7-Tips-to-Finding-Art-Inspiration-Header-1024x649.jpg"
-          alt="Card image cap"
+          alt="Card"
         />
         <div class="card-body">
-          <p class="card-text">
-            This is an example of text under artwork using a Bootstrap card.
-          </p>
+          <div class="card">
+            <div class="card-header">One of my favorite quotes</div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  "For every minute you are angry you lose 60 seconds of
+                  happiness."
+                </p>
+                <footer class="blockquote-footer">
+                  Someone famous in{" "}
+                  <cite title="Source Title">Source Title</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
         </div>
       </div>
     </div>

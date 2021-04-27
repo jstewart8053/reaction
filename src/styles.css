@@ -1,4 +1,16 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background: rgba(2, 153, 123, 0.664);
+}
+
+.nav,
+li,
+ul {
+  color: whitesmoke !important;
+}
+
+.footer {
+  margin-top: 25px;
+  color: whitesmoke;
 }
